@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  mvc:
+    servlet:
+      path: /consumer
+
+client:
+  app-key: consumer
+  app-secret: 12345678
+

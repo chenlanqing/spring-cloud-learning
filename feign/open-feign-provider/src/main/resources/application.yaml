@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  mvc:
+    servlet:
+      path: /provider
+
+intranet:
+  auth-key-map:
+    consumer:
+      app-key: consumer
+      app-secret: 12345678
+    order:
+      app-key: order
+      app-secret: 98765432
